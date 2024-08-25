@@ -37,6 +37,7 @@ module.exports = (sequelize, DataTypes) => {
     sequelize,
     modelName: 'User',
   });
+  // ! the below methods are call HOOKS, that sequelize provide
   User.beforeCreate((user) => {
     const encryptedPass = bcrypt.hashSync(user.password, SALT);
     user.password = encryptedPass;
