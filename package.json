@@ -1,0 +1,30 @@
+{
+  "name": "authservice",
+  "version": "1.0.0",
+  "description": "Part of a personal airline management system project. Manages user authentication and authorization, offering APIs for registration, login, token generation, and role-based access control. Implemented using MVC architecture for a clear and maintainable backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarikeshKS/AuthService.git"
+  },
+  "keywords": [
+    "Authentication",
+    "Authorization",
+    "Microservices"
+  ],
+  "author": "Harikesh Kumar Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarikeshKS/AuthService/issues"
+  },
+  "homepage": "https://github.com/HarikeshKS/AuthService#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
