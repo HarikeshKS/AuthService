@@ -74,7 +74,7 @@ const isAdmin = async (req, res) => {
         return res.status(200).json({
             data: response,
             success: true,
-            message: "User is an admin",
+            message: "Successfully fetched if user if Admin",
             err: {},
         });
     } catch (error) {
